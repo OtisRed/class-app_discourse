@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reading List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Akcja "Spięcie"</h1>
+            <p class="description-text">
+                Akcja „Spięcie” to wspólny projekt publicystyczny pięciu polskich redakcji – Krytyki Politycznej, Magazynu Kontakt, Kultury Liberalnej, Klubu Jagiellońskiego i Nowej Konfederacji – które regularnie wybierają jeden ważny temat społeczny lub polityczny (np. migracje, energetyka czy integracja), a następnie publikują równolegle własne teksty na wszystkich pięciu portalach.
+            </p>
+            <p class="description-text clou-highlight">
+                Celem jest stworzenie przestrzeni do merytorycznej debaty ponad podziałami ideologicznymi, pokazując, że mimo ostrych sporów politycznych możliwa jest spokojna, argumentacyjna dyskusja o kluczowych sprawach publicznych.
+            </p>
+        </header>
+
+        <!-- Grid View -->
+        <div id="topic-grid" class="grid-container">
+            <!-- Topics will be injected here by JS -->
+        </div>
+
+        <!-- Detail View -->
+        <div id="detail-view" class="detail-container hidden">
+            <button id="back-btn" class="back-btn">&larr; Back to Topics</button>
+            <h2 id="topic-title">Topic Title</h2>
+            <ol id="links-list" class="links-list">
+                <!-- Links will be injected here by JS -->
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
